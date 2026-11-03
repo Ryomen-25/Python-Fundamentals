@@ -1,4 +1,8 @@
-# Print the four lines the exercise shows, in order.
-# The line below is a placeholder, not the answer.
-print("Hello!")
-# TODO: line 1 is the greeting, line 2 is blank, line 3 is the rule, line 4 is the path.
+code = input()
+amount = int(input())
+
+# Replace each placeholder below with the comparison described in the comment.
+print(code == "GOLD")  # TODO: is the code exactly GOLD?
+print("X" in code)  # TODO: does the code contain an X?
+print(50 <= amount <= 200)  # TODO: is the amount between 50 and 200, both ends included?
+print(code == "GOLD" or amount < 50 or amount > 200)  # TODO: exactly GOLD, or the amount outside that band?
